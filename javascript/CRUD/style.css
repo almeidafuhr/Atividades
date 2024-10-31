@@ -1,0 +1,15 @@
+.texts{
+    size : 30px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buttons {
+    width: 200px;
+}
+
+body{
+    padding: 10px;
+}
