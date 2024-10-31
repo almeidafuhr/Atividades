@@ -1,7 +1,9 @@
-document.getElementById("formulario").addEventListener("submit", function() {
+document.getElementById("formulario").addEventListener("click", function(e) {
+	e.preventDefault();
 	let nome = document.getElementById("nomeInput").value;
 	if(nome == ""){
-		alert("Erro: O campo está vazio!");
+		document.getElementById("mensagem").textContent = "Campo está vazio!" ;
+		//alert("Erro: O campo está vazio!");
 	}
 	else{
 		//alert("Sucesso: " + nome);

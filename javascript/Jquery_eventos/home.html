@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 3</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Adicione seu código aqui
+            $("#campoTexto").mouseenter( function () { 
+                $(this).css("background-color", "lightblue");
+            });
+
+            $("#campoTexto").mouseleave( function () { 
+                $(this).css("background-color", "white");
+            });
+
+            $("#alertarValor").click(function () {
+                var teste = $("#campoTexto").val();
+                if(teste === "")
+                    alert("Campo está vazio");
+                else
+                    alert(teste);
+            });
+        });
+    </script>
+</head>
+<body>
+    <input type="text" id="campoTexto" placeholder="Digite algo...">
+    <button id="alertarValor">Alertar Valor</button>
+</body>
+</html>
