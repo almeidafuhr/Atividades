@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 1</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Adicione seu código aqui
+           $("#meuFormulario").submit(function (e) {
+                e.preventDefault();
+                var nome = $("#campoNome").val();
+                if(nome == "")
+                    alert("Você deve inserir o nome!");
+                else
+                    alert("Nome: " + nome);
+           });
+        });
+    </script>
+</head>
+<body>
+    <form id="meuFormulario">
+        <input type="text" id="campoNome" placeholder="Digite seu nome">
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
