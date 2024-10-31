@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 5</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Adicione seu código aqui
+            $("#carregarDados").click(function () {
+                $.get("https://jsonplaceholder.typicode.com/todos/1", function(data) {
+                    console.log(data);
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <button id="carregarDados">Carregar Dados</button>
+</body>
+</html>
+
+
+
+
+
