@@ -1,13 +1,25 @@
+h1{
+    text-align: center;
+    color: darkolivegreen;
+}
+
 .texts{
-    size : 30px;
     width: 150px;
     border-radius: 10px;
     margin-bottom: 20px;
     text-align: center;
+    box-shadow: 5px 3px 2px darkolivegreen;
+    border-color: white;
+    align-items: center;
 }
 
 .buttons {
     width: 200px;
+    height: 40px;
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    border-color: gray;
+    border-radius: 5px;
 }
 
 body{
