@@ -14,14 +14,21 @@ h1{
 }
 
 .buttons {
-    width: 200px;
+    width: 170px;
     height: 40px;
     background-color: darkolivegreen;
     color: whitesmoke;
-    border-color: gray;
     border-radius: 5px;
+    margin: 5px;
 }
 
 body{
     padding: 10px;
 }
+
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
