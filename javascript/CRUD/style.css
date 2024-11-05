@@ -3,10 +3,14 @@ h1{
     color: darkolivegreen;
 }
 
+#inputRemover{
+    width: 300px;
+}
+
 .texts{
     width: 150px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-align: center;
     box-shadow: 5px 3px 2px darkolivegreen;
     border-color: white;
@@ -18,7 +22,6 @@ h1{
     height: 40px;
     background-color: darkolivegreen;
     color: whitesmoke;
-    border-radius: 5px;
     margin: 5px;
 }
 
